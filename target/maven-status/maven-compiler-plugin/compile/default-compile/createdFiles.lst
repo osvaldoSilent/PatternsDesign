@@ -1,0 +1,17 @@
+com\mycompany\service\RestServiceEx2.class
+com\mycompany\interf\ISoapService.class
+com\example\factory\RestServiceFactory.class
+com\example\app.class
+com\example\interf\IService.class
+com\example\factory\Factory.class
+com\mycompany\factory\FactoryService.class
+com\mycompany\interf\IFactory.class
+com\mycompany\interf\IRestService.class
+com\mycompany\service\RestServiceEx.class
+com\example\factory\FactoryServiceProducer.class
+com\mycompany\App.class
+com\mycompany\factory\FactoryRestService.class
+com\mycompany\factory\FactorySoapService.class
+com\mycompany\service\SoapServiceEx2.class
+com\mycompany\service\SoapServiceEx.class
+com\example\service\RestServiceEx.class
