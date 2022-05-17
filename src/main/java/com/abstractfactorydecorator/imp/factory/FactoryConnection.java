@@ -1,9 +1,9 @@
-package com.abstractfactorydecorator.factory;
+package com.abstractfactorydecorator.imp.factory;
 
-import com.abstractfactory.imp.ConnectionMongoDB;
-import com.abstractfactory.imp.ConnectionSQL;
-import com.abstractfactory.interf.AbstractFactory;
-import com.abstractfactory.interf.IConnection;
+import com.abstractfactorydecorator.imp.ConnectionMongoDB;
+import com.abstractfactorydecorator.imp.ConnectionSQL;
+import com.abstractfactorydecorator.interf.AbstractFactory;
+import com.abstractfactorydecorator.interf.IConnection;
 
 public class FactoryConnection extends AbstractFactory {
     private static FactoryConnection factoryConnection;

@@ -1,6 +1,6 @@
 package com.abstractfactorydecorator.imp;
 
-import com.abstractfactory.interf.IConnection;
+import com.abstractfactorydecorator.interf.IConnection;
 
 public class ConnectionSQL implements IConnection {
     private static ConnectionSQL connection;

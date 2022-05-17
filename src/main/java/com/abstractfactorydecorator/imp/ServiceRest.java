@@ -1,11 +1,12 @@
 package com.abstractfactorydecorator.imp;
 
-import com.abstractfactory.interf.IService;
+import com.abstractfactorydecorator.interf.IService;
+import com.abstractfactorydecorator.interf.AbstractDecorator;
 
 public class ServiceRest implements IService {
-    private static ServiceRest serviceRest;
+    private static IService serviceRest;
     private ServiceRest(){}
-    public static ServiceRest getInstance(){
+    public static IService getInstance(){
         if(serviceRest==null) serviceRest= new ServiceRest();
         return serviceRest;
     }

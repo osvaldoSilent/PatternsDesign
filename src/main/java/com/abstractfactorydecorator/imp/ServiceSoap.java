@@ -1,6 +1,6 @@
 package com.abstractfactorydecorator.imp;
 
-import com.abstractfactory.interf.IService;
+import com.abstractfactorydecorator.interf.IService;
 
 public class ServiceSoap implements IService {
     private static ServiceSoap serviceSoap;
