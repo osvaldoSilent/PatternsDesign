@@ -1,9 +1,9 @@
-package com.abstractfactorydecorator.factory;
+package com.abstractfactorydecorator.imp.factory;
 
-import com.abstractfactory.imp.ServiceRest;
-import com.abstractfactory.imp.ServiceSoap;
-import com.abstractfactory.interf.AbstractFactory;
-import com.abstractfactory.interf.IService;
+import com.abstractfactorydecorator.imp.ServiceRest;
+import com.abstractfactorydecorator.imp.ServiceSoap;
+import com.abstractfactorydecorator.interf.AbstractFactory;
+import com.abstractfactorydecorator.interf.IService;
 
 public class FactoryService extends AbstractFactory {
     static FactoryService factoryService;

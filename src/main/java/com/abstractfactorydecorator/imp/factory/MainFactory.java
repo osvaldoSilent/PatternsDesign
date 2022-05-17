@@ -1,8 +1,6 @@
-package com.abstractfactorydecorator.factory;
+package com.abstractfactorydecorator.imp.factory;
 
-import com.abstractfactory.factory.FactoryConnection;
-import com.abstractfactory.factory.FactoryService;
-import com.abstractfactory.interf.AbstractFactory;
+import com.abstractfactorydecorator.interf.AbstractFactory;
 
 public class MainFactory {
     public static AbstractFactory getFactory(String factory){

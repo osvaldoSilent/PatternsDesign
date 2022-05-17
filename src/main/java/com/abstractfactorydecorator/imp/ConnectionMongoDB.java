@@ -1,6 +1,6 @@
 package com.abstractfactorydecorator.imp;
 
-import com.abstractfactory.interf.IConnection;
+import com.abstractfactorydecorator.interf.IConnection;
 
 public class ConnectionMongoDB implements IConnection {
     private static ConnectionMongoDB connection;
