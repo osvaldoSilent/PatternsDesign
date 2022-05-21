@@ -7,7 +7,6 @@ import com.decoratorabstractfactory.interf.IService;
 
 public class app {
     public static void main(String[] args) {
-
         new DecoratedService(
                 (IService) ((FactoryService) MainFactory.getFactory("service")).getService("rest")
         ).connect();
