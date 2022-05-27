@@ -1,8 +1,9 @@
-package com.patterdesign.interfa;
+package com.patterdesign.interfa.decorator;
 
 import com.patterdesign.imp.ServiceRest;
+import com.patterdesign.interfa.IServiceRest;
 
-public abstract class AbstractDecorator implements IServiceRest{
+public abstract class AbstractDecorator implements IServiceRest {
     private static IServiceRest serviceRest;
 
     public AbstractDecorator(IServiceRest serviceRest){

@@ -1,6 +1,6 @@
 package com.patterdesign.imp.factory;
 
-import com.patterdesign.interfa.AbstractFactory;
+import com.patterdesign.interfa.factory.AbstractFactory;
 import com.patterdesign.interfa.IFactory;
 
 public class FactoryMain extends AbstractFactory implements IFactory {

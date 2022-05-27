@@ -1,6 +1,6 @@
 package com.patterdesign.imp.decorator;
 
-import com.patterdesign.interfa.AbstractDecorator;
+import com.patterdesign.interfa.decorator.AbstractDecorator;
 import com.patterdesign.interfa.IServiceRest;
 
 public class DecoratorRest extends AbstractDecorator {
